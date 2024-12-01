@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "uuid": "dacd05fb-9f75-32bf-99c4-530e7ea83c9d",
+    "name": "TonyML",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

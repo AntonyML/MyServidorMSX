@@ -1,48 +1,86 @@
-[16:13:06] [ServerMain/INFO]: Building unoptimized datafixer
-[16:13:07] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[16:13:07] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
-[16:13:08] [ServerMain/INFO]: Loaded 7 recipes
-[16:13:10] [Server thread/INFO]: Starting minecraft server version 1.19
-[16:13:10] [Server thread/INFO]: Loading properties
-[16:13:10] [Server thread/INFO]: This server is running Paper version git-Paper-81 (MC: 1.19) (Implementing API version 1.19-R0.1-SNAPSHOT) (Git: 86f87ba)
-[16:13:10] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[16:13:10] [Server thread/INFO]: Using 4 threads for Netty based IO
-[16:13:10] [Server thread/INFO]: Default game type: SURVIVAL
-[16:13:10] [Server thread/INFO]: Generating keypair
-[16:13:10] [Server thread/INFO]: Starting Minecraft server on *:25565
-[16:13:10] [Server thread/INFO]: Using epoll channel type
-[16:13:10] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[16:13:10] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[16:13:10] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[16:13:10] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[16:13:10] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[16:13:10] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[16:13:10] [Server thread/INFO]: Preparing level "world"
-[16:13:26] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[16:13:26] [Server thread/INFO]: Time elapsed: 394 ms
-[16:13:26] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[16:13:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[16:13:27] [Server thread/INFO]: Time elapsed: 487 ms
-[16:13:27] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[16:13:27] [Server thread/INFO]: Time elapsed: 304 ms
-[16:13:27] [Server thread/INFO]: Running delayed init tasks
-[16:13:27] [Server thread/INFO]: Done (17.390s)! For help, type "help"
-[16:13:27] [Server thread/INFO]: Timings Reset
-[16:17:11] [User Authenticator #1/INFO]: UUID of player TonyML is dacd05fb-9f75-32bf-99c4-530e7ea83c9d
-[16:17:11] [Server thread/INFO]: TonyML joined the game
-[16:17:11] [Server thread/INFO]: TonyML[/127.224.201.115:52983] logged in with entity id 502 at ([world]325.5, 71.0, -137.5)
-[16:17:43] [Server thread/INFO]: TonyML lost connection: Disconnected
-[16:17:43] [Server thread/INFO]: TonyML left the game
-[16:18:00] [Server thread/INFO]: Stopping server
-[16:18:00] [Server thread/INFO]: Saving players
-[16:18:00] [Server thread/INFO]: Saving worlds
-[16:18:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[16:18:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[16:18:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[16:18:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[16:18:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[16:18:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[16:18:03] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[16:18:03] [Server thread/INFO]: Flushing Chunk IO
-[16:18:03] [Server thread/INFO]: Closing Thread Pool
-[16:18:03] [Server thread/INFO]: Closing Server
+[19:20:32] [ServerMain/INFO]: Building unoptimized datafixer
+[19:20:33] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[19:20:35] [ServerMain/INFO]: Loaded 7 recipes
+[19:20:36] [Server thread/INFO]: Starting minecraft server version 1.19
+[19:20:36] [Server thread/INFO]: Loading properties
+[19:20:36] [Server thread/INFO]: This server is running Paper version git-Paper-81 (MC: 1.19) (Implementing API version 1.19-R0.1-SNAPSHOT) (Git: 86f87ba)
+[19:20:36] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:20:36] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:20:36] [Server thread/INFO]: Default game type: SURVIVAL
+[19:20:36] [Server thread/INFO]: Generating keypair
+[19:20:37] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:20:37] [Server thread/INFO]: Using epoll channel type
+[19:20:37] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[19:20:37] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[19:20:38] [Server thread/INFO]: [EntityClearer] Loading EntityClearer v3.7.2
+[19:20:38] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v5.1.1
+[19:20:38] [Server thread/INFO]: [ViaVersion] ViaVersion 5.1.1 is now loaded. Registering protocol transformers and injecting...
+[19:20:38] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[19:20:38] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[19:20:38] [Server thread/INFO]: [floodgate] Loading floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[19:20:38] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[19:20:39] [Server thread/INFO]: [floodgate] Took 453ms to boot Floodgate
+[19:20:39] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser-Spigot v2.5.0-SNAPSHOT
+[19:20:39] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[19:20:39] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[19:20:39] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:20:39] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:20:39] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:20:39] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:20:39] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:20:39] [Server thread/INFO]: Preparing level "world"
+[19:20:51] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:20:51] [Server thread/INFO]: Time elapsed: 270 ms
+[19:20:51] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[19:20:51] [Server thread/INFO]: Time elapsed: 177 ms
+[19:20:51] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[19:20:52] [Server thread/INFO]: Time elapsed: 129 ms
+[19:20:52] [Server thread/INFO]: [EntityClearer] Enabling EntityClearer v3.7.2
+[19:20:52] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.1.1
+[19:20:52] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.19 (759)
+[19:20:52] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[19:20:53] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.5.0-SNAPSHOT
+[19:20:53] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[19:20:53] [Server thread/INFO]: [Geyser-Spigot] 
+[19:20:53] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.5.0-b720 (git-master-c240c1c)
+[19:20:53] [Server thread/INFO]: [Geyser-Spigot] 
+[19:20:53] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[19:20:59] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 1587
+[19:20:59] [Server thread/INFO]: [Geyser-Spigot] Done (5.371s)! Run /geyser help for help!
+[19:20:59] [Server thread/INFO]: Running delayed init tasks
+[19:20:59] [Craft Scheduler Thread - 0 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[19:20:59] [Server thread/INFO]: Done (22.690s)! For help, type "help"
+[19:20:59] [Server thread/INFO]: Timings Reset
+[19:20:59] [Server thread/INFO]: [EntityClearer] TPS monitoring activated.
+[19:23:53] [User Authenticator #1/INFO]: UUID of player TonyML is dacd05fb-9f75-32bf-99c4-530e7ea83c9d
+[19:23:53] [Server thread/INFO]: TonyML joined the game
+[19:23:53] [Server thread/INFO]: TonyML[/127.224.201.115:33057] logged in with entity id 261 at ([world]323.69390265872244, 67.0, -119.7624362016162)
+[19:24:16] [Server thread/INFO]: TonyML issued server command: /gamemode creative
+[19:24:16] [Server thread/INFO]: [TonyML: Set own game mode to Creative Mode]
+[19:25:35] [Server thread/INFO]: TonyML has made the advancement [A Throwaway Joke]
+[19:25:38] [Server thread/INFO]: TonyML has made the advancement [Monster Hunter]
+[19:26:52] [Server thread/INFO]: TonyML issued server command: /entityclearer
+[19:27:01] [Server thread/INFO]: TonyML issued server command: /entityclearer:entityclearer reload
+[19:27:01] [Server thread/INFO]: [EntityClearer] TPS monitoring activated.
+[19:27:32] [Server thread/INFO]: TonyML issued server command: /bossbar list
+[19:28:41] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username TonyML18
+[19:28:41] [localSession-7-2/INFO]: [Geyser-Spigot] TonyML18 (logged in as: TonyML18) has connected to the Java server
+[19:28:41] [Geyser Spigot connection thread-6-3/INFO]: UUID of player .TonyML18 is 00000000-0000-0000-0009-01f423a2e6e3
+[19:28:41] [Server thread/INFO]: [floodgate] Floodgate player logged in as .TonyML18 joined (UUID: 00000000-0000-0000-0009-01f423a2e6e3)
+[19:28:41] [Server thread/INFO]: .TonyML18 joined the game
+[19:28:41] [Server thread/INFO]: .TonyML18[/127.0.0.1:0] logged in with entity id 1336 at ([world]323.45767, 66.0, -117.77917)
+[19:28:59] [Server thread/INFO]: .TonyML18 was slain by Spider
+[19:29:01] [localSession-7-2/INFO]: [Geyser-Spigot] TonyML18 has disconnected from the Java server because of Bedrock client timed out
+[19:29:01] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .TonyML18 disconnected
+[19:29:01] [Server thread/INFO]: .TonyML18 lost connection: Disconnected
+[19:29:01] [Server thread/INFO]: .TonyML18 left the game
+[19:29:09] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username TonyML18
+[19:29:09] [localSession-7-3/INFO]: [Geyser-Spigot] TonyML18 (logged in as: TonyML18) has connected to the Java server
+[19:29:09] [Geyser Spigot connection thread-6-4/INFO]: UUID of player .TonyML18 is 00000000-0000-0000-0009-01f423a2e6e3
+[19:29:09] [Server thread/INFO]: [floodgate] Floodgate player logged in as .TonyML18 joined (UUID: 00000000-0000-0000-0009-01f423a2e6e3)
+[19:29:09] [Server thread/INFO]: .TonyML18 joined the game
+[19:29:09] [Server thread/INFO]: .TonyML18[/127.0.0.1:0] logged in with entity id 1446 at ([world]323.45767, 66.0, -117.77917)
+[19:29:48] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as .TonyML18 disconnected
+[19:29:48] [localSession-7-3/INFO]: [Geyser-Spigot] TonyML18 has disconnected from the Java server because of Bedrock client timed out
+[19:29:48] [Server thread/INFO]: .TonyML18 lost connection: Disconnected
+[19:29:48] [Server thread/INFO]: .TonyML18 left the game
